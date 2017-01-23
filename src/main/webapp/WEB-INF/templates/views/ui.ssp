@@ -1,0 +1,19 @@
+<div class="column row large-centered">
+<h1>Отправка сообщений через Mailchimp</h1>
+</div>
+
+
+<div class="row">
+
+<div class="columns large-3">
+    <p>Списки рассылки:</p>
+    <ul id="mailing_lists"></ul>
+    <button class="button" id="btn_create_list">Создать</button>
+
+</div>
+
+<div class="columns large-9">
+    <div id="content"></div>
+</div>
+
+</div>

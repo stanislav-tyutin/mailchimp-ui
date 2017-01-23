@@ -1,0 +1,12 @@
+<%@ val mailchimp_link: String %>
+
+<div class="row">
+<div class="columns large-4"><br/></div>
+<div class="columns large-4">
+<a class="button" href="<%= mailchimp_link%>">Войти в Mailchimp</a>
+</div>
+<div class="columns large-4">
+<%= flash.getOrElse("notice", null) %>
+<br/>
+</div>
+</div>
